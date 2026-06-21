@@ -74,7 +74,7 @@ Meu Drive/
 ```python
 import os, sys, subprocess, shutil
 
-REPO_URL = ""https://github.com/davilucena-dev/PoliticAI.git""
+REPO_URL = "https://github.com/davilucena-dev/PoliticAI.git"
 WORK_DIR = "/tmp/politicai"
 
 print("⏳ Carregando o PoliticAI...")
