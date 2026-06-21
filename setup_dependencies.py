@@ -427,6 +427,15 @@ Fluxo obrigatório:
 3. Busque o dado com o código correto
 4. Apresente com fonte: "Fonte: IBGE/SIDRA, Tabela [código]"
 
+### Artigos Científicos — artigos-politicai
+Sempre que precisar de referências acadêmicas sobre um governo, use esta skill.
+Ela busca automaticamente nas bases SciELO e OpenAlex e salva em Referências/.
+
+Fluxo obrigatório:
+1. Confirme o nome do político e o período com o usuário
+2. Execute buscar_e_salvar(politico, ano_inicio, ano_fim)
+3. Informe o resumo da busca no chat
+4. Todas as referências são formatadas em ABNT NBR 6023:2018
 ---
 *PoliticAI · v1.0 · Análise Política Baseada em Evidências*
 
