@@ -2,7 +2,7 @@ import sys
 import os
 import shutil
 
-REPO_URL = "https://github.com/SEU_USUARIO/PoliticAI.git"  # substitua pelo seu repo
+REPO_URL = ""https://github.com/davilucena-dev/PoliticAI.git""  
 
 JOKES = [
     "🏛️ Abrindo os arquivos históricos...",
