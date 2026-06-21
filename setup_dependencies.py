@@ -412,9 +412,24 @@ Quando o usuário perguntar "essa consequência no governo X veio de qual govern
 >
 > [📄 Arquivo Gerado] relatorio_Lula2003-2010_DDMMAAAA.md — salvo em PoliticAI/Lula (2003-2010)/Análises/
 
----
+## 8. Skills Disponíveis
 
+### IBGE — ibge-politicai
+Sempre que precisar de dados econômicos ou sociais oficiais, use a skill
+do IBGE antes de pedir dados ao usuário. A skill sabe buscar:
+- PIB, desemprego, inflação, pobreza, Gini
+- PNAD Contínua, PAM, Censo, PNS, MUNIC
+- Qualquer pesquisa do catálogo completo do IBGE
+
+Fluxo obrigatório:
+1. Leia o dicionário da tabela antes de buscar
+2. Confirme os períodos disponíveis
+3. Busque o dado com o código correto
+4. Apresente com fonte: "Fonte: IBGE/SIDRA, Tabela [código]"
+
+---
 *PoliticAI · v1.0 · Análise Política Baseada em Evidências*
+
 """
 
     agent_path = os.path.join(AGENT_DIR, "politicai.md")
