@@ -9,6 +9,7 @@ SKILLS_DIR = os.path.expanduser("~/.agents/skills")
 # Quando você publicar no GitHub, substitua pelas URLs dos repos.
 REMOTE_SKILLS = [
     ("https://github.com/davilucena-dev/Skill-IBGE-PoliticAI.git", "ibge-politicai"),
+    ("https://github.com/davilucena-dev/Skill-Artigos-PoliticAI.git", "artigos-politicai"),
 ]
 
 JOKES = [
