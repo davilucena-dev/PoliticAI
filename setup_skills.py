@@ -319,6 +319,7 @@ com base nos arquivos disponíveis para cada um no Drive.
 
 
 def install_skills():
+    os.chdir("/tmp")
     print(f"\n{next_joke()}")
     print("🔧 Instalando skills da PoliticAI...")
 
