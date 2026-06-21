@@ -8,7 +8,7 @@ SKILLS_DIR = os.path.expanduser("~/.agents/skills")
 # Por enquanto usa skills locais (criadas neste arquivo).
 # Quando você publicar no GitHub, substitua pelas URLs dos repos.
 REMOTE_SKILLS = [
-    # ("https://github.com/SEU_USUARIO/skill-politicai.git", "politicai"),
+    # ("https://github.com/SEU_USUARIO/skill-politicai.git", "ibge-politicai", "politicai"),
 ]
 
 JOKES = [
